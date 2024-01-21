@@ -1,26 +1,11 @@
 import { clsx } from 'clsx';
 import Link from 'next/link';
-import { lusitana
+import { lusitana } from 'next/font/google';
 
- } from 'next/font/google';
-
-
-interface Breadcrumb {
-  label: string;
-  href: string;
-  active?: boolean;
-}
-
-export default function Breadcrumbs({
-  breadcrumbs,
-}: {
-  breadcrumbs: Breadcrumb[];
-}) {
+export default function Breadcrumbs({ breadcrumbs }) {
   return (
     <nav aria-label="Breadcrumb" className="mb-6 block">
-      <ol className={clsx(lusitana
-
-.className, 'flex text-xl md:text-2xl')}>
+      <ol className={clsx(lusitana.className, 'flex text-xl md:text-2xl')}>
         {breadcrumbs.map((breadcrumb, index) => (
           <li
             key={breadcrumb.href}
