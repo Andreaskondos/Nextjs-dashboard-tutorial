@@ -28,7 +28,27 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "app/lib/placeholder-data.js",
-    "scripts/seed.js"
+    "scripts/seed.js",
+    "app/layout.jsx",
+    "app/page.jsx",
+    "app/ui/button.jsx",
+    "app/ui/acme-logo.jsx",
+    "app/ui/search.jsx",
+    "app/ui/login-form.jsx",
+    "app/ui/skeletons.jsx",
+    "app/ui/dashboard/revenue-chart.jsx",
+    "app/ui/dashboard/sidenav.jsx",
+    "app/ui/dashboard/latest-invoices.jsx",
+    "app/ui/dashboard/nav-links.jsx",
+    "app/ui/customers/table.jsx",
+    "app/ui/dashboard/cards.jsx",
+    "app/ui/invoices/buttons.jsx",
+    "app/ui/invoices/breadcrumbs.jsx",
+    "app/ui/invoices/edit-form.jsx",
+    "app/ui/invoices/pagination.jsx",
+    "app/ui/invoices/status.jsx",
+    "app/ui/invoices/create-form.jsx",
+    "app/ui/invoices/table.jsx"
   ],
   "exclude": ["node_modules"]
 }
